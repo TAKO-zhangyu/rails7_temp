@@ -30,7 +30,7 @@ services:
       - ".:/workspace"
 
   pgadmin:
-    container_name: pgadmin4_container
+    container_name: pgadmin4_container_ahan
     image: dpage/pgadmin4
     restart: always
     environment:
